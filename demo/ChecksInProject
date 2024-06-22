@@ -1,0 +1,7 @@
+Exception:
+    GET: http://localhost:8080/api/products/{id}
+    While entering product id not in DB
+
+When Product is entered check for id number then check for same name
+
+

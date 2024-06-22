@@ -1,0 +1,10 @@
+Service
+Controller
+Security Configuration (JWT Utitlity, Security Config. Customer UserDestails Service, JWT Request Filter)
+Authentication COntroller Enhancement
+
+Lets code Spring Security and JWY. The api comes with "both" must be accessed by both user and admin.
+The api comes with "admin" must be accessed by admin only
+The api comes with "user" must be accessed by user only
+
+Use SecurityFilterChain method in SecurityConfig class. Use spring security 6

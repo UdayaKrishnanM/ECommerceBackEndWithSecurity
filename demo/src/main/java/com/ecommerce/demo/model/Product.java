@@ -20,15 +20,18 @@ public class Product {
 
     private Double price;
 
+    private String category;
+
     private int stockQuantity;
 
     public Product() {
     }
 
-    public Product(Long id, String name, String description, Double price, int stockQuantity) {
+    public Product(Long id, String name, String description, String category, Double price, int stockQuantity) {
         this.id = id;
         this.name = name;
         this.description = description;
+        this.category = category;
         this.price = price;
         this.stockQuantity = stockQuantity;
     }
